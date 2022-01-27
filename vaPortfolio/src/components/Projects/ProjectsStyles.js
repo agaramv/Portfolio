@@ -5,6 +5,7 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px 10px 0px 0px;
 `
 
 export const GridContainer = styled.section`
@@ -35,7 +36,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
+  padding: 0.4rem
 `;
 
 
@@ -43,7 +44,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: .5rem 0;
+  padding: .6rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -52,7 +53,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: rgb(150, 107, 252);
 `;
 
 export const Intro = styled.div`
@@ -68,7 +69,7 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 0px 50px 15px 50px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
@@ -85,7 +86,7 @@ export const UtilityList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0;
 `;
 
 export const ExternalLinks = styled.a`
@@ -107,6 +108,9 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+background-color: rgb(167, 214, 239);
+font-color: black;
+padding: 1rem;
+border-radius: 10px
 font-size: 1.5rem;
 `

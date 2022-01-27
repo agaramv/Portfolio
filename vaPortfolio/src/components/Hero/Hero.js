@@ -8,8 +8,7 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Person Portfolio
+        Vidur Agaram
       </SectionTitle>
       <SectionText>
         I am a second year computer science major and data science minor at the University of Virginia who works on software for companies to expand their businesses. Reach out to me for any job positions. Actively Looking. 
