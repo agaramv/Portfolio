@@ -4,6 +4,14 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+function handleScroll() {
+  window.scroll({
+    top: document.body.offsetHeight,
+    left: 0, 
+    behavior: 'smooth',
+  });
+}
+
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
@@ -11,9 +19,11 @@ const Hero = (props) => (
         Vidur Agaram
       </SectionTitle>
       <SectionText>
-        I am a second year computer science major and data science minor at the University of Virginia who works on software for companies to expand their businesses. Reach out to me for any job positions. Actively Looking. 
+        I am a second year student at the University of Virginia majoring in computer science and minoring in data science. I am a full-stack developer who creates software solutions to simplify and improve my customer's everyday life.
       </SectionText>
-      <Button onClick={()=> window.location = 'https://google.com'}>Hire Me</Button>
+      <Button onClick={handleScroll}>
+        Contact Me
+        </Button>
     </LeftSection>
   </Section>
 );

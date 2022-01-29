@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <Section id="#tech">
+  <Section id="tech">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
@@ -33,7 +33,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Tech Tools</ListTitle>
           <ListParagraph>Experience with <br />
-            Github and Postman
+            Github, Postman, and AWS
           </ListParagraph>
         </ListContainer>
       </ListItem>

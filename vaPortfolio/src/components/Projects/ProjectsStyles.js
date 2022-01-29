@@ -104,13 +104,13 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
+flex-wrap: wrap;
+justify-content: center;
 padding: 2rem;
 `
 export const Tag = styled.li`
-background-color: rgb(167, 214, 239);
-font-color: black;
-padding: 1rem;
-border-radius: 10px
-font-size: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 12px;
+    white-space: nowrap;
 `

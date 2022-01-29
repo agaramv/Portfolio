@@ -1,18 +1,18 @@
 export const projects = [
   {
     title: 'HR Management System',
-    description: "A suite of software applications for human resources and related processes throughout the employee lifecycle. This software houses payroll processing, leave management, employee management, and much more allowing customers to use this product for any critical processes companies need.",
+    description: "A suite of software applications for human resources and related processes throughout the employee lifecycle. This software houses payroll processing, leave management, employee management, and much more.",
       image: '/images/1.png',
-      tags: ['Angular', 'SpringBoot', 'Spring Batch', 'MySQL'],
+      tags: ['Angular', 'SpringBoot', 'Spring Batch', 'MySQL', 'AWS'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
   {
     title: 'Member Management System',
-    description: "This member management system tracks the member lifecycle from registration and selection process to member graduation allowing administrators and students to have an all-in-one application. Currently, this system focusses on assisting the needs of the Technology Student Association with specialize features to aid the customer experience.",
+    description: "This member management system tracks the member lifecycle from registration and selection process to member graduation allowing administrators and students to have an all-in-one application. Currently, this system focusses on assisting the needs of the Technology Student Association with specialized features to aid the customer experience.",
     image: '/images/2.png',
-    tags: ['Angular', 'SpringBoot', 'MySQL'],
+    tags: ['Angular', 'Spring', 'MySQL', 'AWS'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,

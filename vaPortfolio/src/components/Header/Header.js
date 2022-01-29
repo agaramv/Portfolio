@@ -10,7 +10,7 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: 'white', marginBottom: '15px'}}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <DiCssdeck size="3rem" /> <Span>Vidur Agaram</Span>
         </a>
       </Link>
     </Div1>
@@ -25,11 +25,11 @@ const Header = () =>  (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li>
+      </li> */}
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/agaramv">

@@ -17,7 +17,7 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: white;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
@@ -87,7 +87,6 @@ export const Slogan = styled.p`
 	letter-spacing: 0.02em;
 	font-size: 18px;
 	line-height: 30px;
-	padding: 1rem;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
@@ -111,14 +110,22 @@ export const SocialContainer = styled.div`
 		flex-wrap: wrap;
 	}
 `
-
+export const ListTitle = styled.h4`
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  margin-top: 8px;
+`
 
 export const LinkList = styled.ul`
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;
-  padding: 40px 0 28px;
+  padding: 10px 0 28px;
 
 	@media ${props => props.theme.breakpoints.lg} {
 		padding: 32px 0 16px;
